@@ -1,0 +1,24 @@
+{
+    "name": "navid/gateway",
+    "description": "Payment Package with Pasargad two step",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "navid.e",
+            "email": "navidheavy@yahoo.com"
+        }
+    ],
+     "require": {
+        "nesbot/carbon": "~1.20"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Larabookir\\Gateway\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
